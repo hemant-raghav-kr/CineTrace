@@ -1,0 +1,44 @@
+# Environment variables, database, and local cache
+.env
+*.env
+.omdb_cache.json
+user_library.json
+cinetrace.db
+*.db
+*.sqlite*
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Large data files, ML model caches, and embedding indexes
+*.pkl
+*.pickle
+*.npz
+data/embeddings/
+data/*.pkl
+data/*.npz
+
+# Generated benchmark and profiling run reports
+benchmark_*_results.json
+performance_profiling_results.json
+optimized_memory_lifecycle.json
